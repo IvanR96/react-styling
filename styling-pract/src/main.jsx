@@ -1,17 +1,7 @@
-
+import React from 'react';
 import { createRoot } from 'react-dom/client'
 import './index.css'
-
-function List(){
-  return <div>
-  <h2>My Favorite Foods</h2>
-  <ul>
-    <li>Pizza</li>
-    <li>Spaghetti</li>
-    <li>Tacos</li>
-  </ul>
-  </div>
-};
+import List from './List';
 
 const currentHour = new Date().getHours();
 
