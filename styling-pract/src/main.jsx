@@ -4,7 +4,7 @@ import './index.css'
 
 const currentHour = new Date().getHours();
 
-
+console.log(currentHour);
 let greeting;
 let color;
 
@@ -23,6 +23,6 @@ let color;
 
 createRoot(document.getElementById('root')).render(
   <div>
-    <h1 style={{color}}>{greeting}</h1>
+    <h1 className='heading' style={{color}}>{greeting}</h1>
   </div>
 )
