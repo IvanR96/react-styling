@@ -2,6 +2,17 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
 
+function List(){
+  return <div>
+  <h2>My Favorite Foods</h2>
+  <ul>
+    <li>Pizza</li>
+    <li>Spaghetti</li>
+    <li>Tacos</li>
+  </ul>
+  </div>
+};
+
 const currentHour = new Date().getHours();
 
 console.log(currentHour);
@@ -24,5 +35,6 @@ let color;
 createRoot(document.getElementById('root')).render(
   <div>
     <h1 className='heading' style={{color}}>{greeting}</h1>
+    <List></List>
   </div>
 )
