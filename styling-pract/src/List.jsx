@@ -6,7 +6,7 @@ function List(){
   <ul>
     <li>Pizza</li>
     <li>Spaghetti</li>
-    <li>Tacos</li>
+    <li>Breaded Shrimp</li>
   </ul>
   </div>
 };
